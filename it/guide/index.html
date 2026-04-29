@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Guida rapida per usare Roster Burrito Local: progetto locale, roster, solver ed export."
+    />
+    <link rel="icon" href="/brand/favicon-32x32.png" type="image/png" />
+    <link rel="apple-touch-icon" href="/brand/apple-touch-icon.png" />
+    <title>Guida | Roster Burrito Local</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/it/" aria-label="Home Roster Burrito Local">
+        <img class="site-brand-logo" src="/brand/wordmark-compact-dark.png" alt="Roster Burrito" />
+        <span class="site-brand-edition">Local</span>
+      </a>
+      <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-label="Apri navigazione">
+        <span></span><span></span>
+      </button>
+      <nav class="site-nav" data-site-nav aria-label="Navigazione principale">
+        <a href="/it/">Home</a>
+        <a href="/it/download/">Download</a>
+        <a href="/it/templates/">Template</a>
+        <a href="/it/guide/">Guida</a>
+        <a href="/it/about/">About</a>
+        <a class="language-link" href="/guide/">EN</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero compact">
+        <p class="eyebrow">Quick start</p>
+        <h1>Costruisci il primo roster locale.</h1>
+        <p>
+          Un percorso operativo breve per testare Roster Burrito Local da progetto vuoto a calendario
+          esportato.
+        </p>
+      </section>
+
+      <section class="guide-grid">
+        <article class="guide-step">
+          <span>01</span>
+          <h2>Installa e apri</h2>
+          <p>
+            Scarica l'installer Windows da GitHub Releases, apri l'app e mantieni i file progetto su
+            un disco locale che controlli.
+          </p>
+        </article>
+        <article class="guide-step">
+          <span>02</span>
+          <h2>Crea un progetto</h2>
+          <p>
+            Parti dalla workspace autosalvata oppure usa Salva con nome per creare un file
+            `.shiftlocal` dedicato al roster.
+          </p>
+        </article>
+        <article class="guide-step">
+          <span>03</span>
+          <h2>Aggiungi le basi</h2>
+          <p>
+            Inserisci clinici, tipi turno, template copertura, impostazioni, festivita e limiti locali.
+          </p>
+        </article>
+        <article class="guide-step">
+          <span>04</span>
+          <h2>Inserisci input mensili</h2>
+          <p>
+            Registra preferenze manuali, date indisponibili, ferie e note di scambio direttamente
+            nella workspace locale.
+          </p>
+        </article>
+        <article class="guide-step">
+          <span>05</span>
+          <h2>Genera e controlla</h2>
+          <p>
+            Esegui il planner, rivedi slot aperti e riepiloghi equita, poi modifica input o assegnazioni.
+          </p>
+        </article>
+        <article class="guide-step">
+          <span>06</span>
+          <h2>Esporta e tieni tutto locale</h2>
+          <p>
+            Salva il progetto ed esporta il calendario quando e pronto. I dati restano locali salvo tua
+            condivisione.
+          </p>
+        </article>
+      </section>
+
+      <section class="video-showcase">
+        <div class="section-heading">
+          <p class="eyebrow">Demo guidati</p>
+          <h2>Usa i template per provare i passaggi della guida.</h2>
+          <p>
+            I video corrispondono all'apertura del primo progetto, alla generazione planner e al
+            percorso team-mode descritti nella quick start.
+          </p>
+        </div>
+        <div class="video-grid">
+          <article class="video-card">
+            <video src="/templates/animations/local-workflow.mp4" muted autoplay loop playsinline preload="metadata"></video>
+            <h3>Passi 01-02</h3>
+            <p>Installa, apri e carica un progetto locale `.shiftlocal`.</p>
+          </article>
+          <article class="video-card">
+            <video src="/templates/animations/schedule-generation.mp4" muted autoplay loop playsinline preload="metadata"></video>
+            <h3>Passi 03-05</h3>
+            <p>Controlla regole, esegui il planner e rivedi il roster generato.</p>
+          </article>
+          <article class="video-card">
+            <video src="/templates/animations/team-mode-workflow.mp4" muted autoplay loop playsinline preload="metadata"></video>
+            <h3>Percorso team-mode</h3>
+            <p>Usa Oak Team Patterns per esperimenti di copertura raggruppata.</p>
+          </article>
+        </div>
+        <div class="video-actions">
+          <a class="button button-secondary" href="/it/templates/">Scarica i template guida</a>
+        </div>
+      </section>
+
+      <section class="split-section">
+        <div>
+          <p class="eyebrow">Troubleshooting</p>
+          <h2>I problemi locali dovrebbero essere facili da isolare.</h2>
+          <p>
+            L'app desktop scrive log locali e usa una API locale solo su loopback. Se il solver non
+            parte, controlla prima Java, poi il percorso del log mostrato dall'app.
+          </p>
+        </div>
+        <div class="feature-list">
+          <article>
+            <h3>Avviso installer</h3>
+            <p>Le build non firmate possono generare prompt di sicurezza Windows finche arriva la firma.</p>
+          </article>
+          <article>
+            <h3>File progetto</h3>
+            <p>Usa i file `.shiftlocal` come sorgente principale della workspace locale.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Roster Burrito Local</span>
+      <span>© <span data-current-year></span> Roster Burrito</span>
+    </footer>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

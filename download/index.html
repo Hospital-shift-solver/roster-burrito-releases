@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Download Roster Burrito Local for Windows from the official GitHub Releases repository."
+    />
+    <link rel="icon" href="/brand/favicon-32x32.png" type="image/png" />
+    <link rel="apple-touch-icon" href="/brand/apple-touch-icon.png" />
+    <title>Download | Roster Burrito Local</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="Roster Burrito Local home">
+        <img class="site-brand-logo" src="/brand/wordmark-compact-dark.png" alt="Roster Burrito" />
+        <span class="site-brand-edition">Local</span>
+      </a>
+      <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-label="Open navigation">
+        <span></span><span></span>
+      </button>
+      <nav class="site-nav" data-site-nav aria-label="Primary navigation">
+        <a href="/">Home</a>
+        <a href="/download/">Download</a>
+        <a href="/templates/">Templates</a>
+        <a href="/guide/">Guide</a>
+        <a href="/about/">About</a>
+        <a class="language-link" href="/it/download/">IT</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero compact">
+        <p class="eyebrow">Official Windows download</p>
+        <h1>Download Roster Burrito Local.</h1>
+        <p>
+          Install the local desktop workspace, build rosters from `.shiftlocal` project files, and
+          keep schedule data on your own machine.
+        </p>
+      </section>
+
+      <section class="download-layout">
+        <article class="download-card download-card--primary">
+          <div class="download-card-header">
+            <div>
+              <p class="eyebrow">Windows x64</p>
+              <h2>Desktop installer</h2>
+            </div>
+            <span class="status-pill">GitHub Releases</span>
+          </div>
+          <p>
+            The primary installer is published from the public installer-only repository. Use the
+            direct download for the latest Windows build, or open the release page to read notes and
+            verify the checksum first.
+          </p>
+          <div class="download-actions">
+            <a
+              class="button button-primary"
+              href="https://github.com/Hospital-shift-solver/roster-burrito-releases/releases/latest/download/roster-burrito-local-windows-x64.exe"
+              data-download-action
+            >Download for Windows</a>
+            <a
+              class="button button-secondary"
+              href="https://github.com/Hospital-shift-solver/roster-burrito-releases/releases/latest"
+              data-release-page
+            >View latest release</a>
+          </div>
+          <dl class="metadata-grid release-metadata">
+            <div>
+              <dt>Repository</dt>
+              <dd>
+                <a href="https://github.com/Hospital-shift-solver/roster-burrito-releases" data-release-repo>
+                  <span data-release-repo-name>Hospital-shift-solver/roster-burrito-releases</span>
+                </a>
+              </dd>
+            </div>
+            <div>
+              <dt>Asset</dt>
+              <dd data-download-asset>roster-burrito-local-windows-x64.exe</dd>
+            </div>
+            <div class="wide">
+              <dt>Verification</dt>
+              <dd>Use the SHA-256 checksum published in the GitHub release notes.</dd>
+            </div>
+          </dl>
+        </article>
+
+        <aside class="info-panel download-trust-panel">
+          <h2>Before you install</h2>
+          <ul class="check-list">
+            <li>Download only from the official GitHub Releases repository.</li>
+            <li>Compare the installer SHA-256 with the checksum in the release notes.</li>
+            <li>Windows may show an unknown-publisher warning while builds are unsigned.</li>
+          </ul>
+          <h2>System requirements</h2>
+          <ul>
+            <li>Windows x64.</li>
+            <li>Local disk access for `.shiftlocal` project files and exports.</li>
+            <li>No cloud account, Supabase setup, or hosted database is required.</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section class="video-showcase">
+        <article class="video-card featured">
+          <video src="/templates/animations/local-workflow.mp4" muted autoplay loop playsinline preload="metadata"></video>
+          <div class="video-copy">
+            <p class="eyebrow">First run</p>
+            <h2>Open a project file and follow the local planning flow.</h2>
+            <p>
+              Demo templates show the app with realistic clinicians, coverage rules, leave,
+              preferences, generated rosters, and export-ready schedules.
+            </p>
+            <div class="video-actions">
+              <a class="button button-secondary" href="/templates/">Open demo templates</a>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="section-band">
+        <div class="section-heading">
+          <p class="eyebrow">Install and use</p>
+          <h2>From download to roster export.</h2>
+        </div>
+        <div class="workflow-grid">
+          <article>
+            <span>01</span>
+            <h3>Download</h3>
+            <p>Get the latest Windows installer from the public GitHub release repository.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Create or open</h3>
+            <p>Start a new local workspace or open one of the `.shiftlocal` demo projects.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Plan locally</h3>
+            <p>Add clinicians, rules, leave, and preferences, then run the local solver.</p>
+          </article>
+          <article>
+            <span>04</span>
+            <h3>Export</h3>
+            <p>Review fairness, adjust the roster, and export when the schedule is ready.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Roster Burrito Local</span>
+      <span>© <span data-current-year></span> Roster Burrito</span>
+    </footer>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

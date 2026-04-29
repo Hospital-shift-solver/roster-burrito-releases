@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Quick-start guide for using Roster Burrito Local to create a local project, configure rosters, run the solver, and export schedules."
+    />
+    <link rel="icon" href="/brand/favicon-32x32.png" type="image/png" />
+    <link rel="apple-touch-icon" href="/brand/apple-touch-icon.png" />
+    <title>Guide | Roster Burrito Local</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="Roster Burrito Local home">
+        <img class="site-brand-logo" src="/brand/wordmark-compact-dark.png" alt="Roster Burrito" />
+        <span class="site-brand-edition">Local</span>
+      </a>
+      <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-label="Open navigation">
+        <span></span><span></span>
+      </button>
+      <nav class="site-nav" data-site-nav aria-label="Primary navigation">
+        <a href="/">Home</a>
+        <a href="/download/">Download</a>
+        <a href="/templates/">Templates</a>
+        <a href="/guide/">Guide</a>
+        <a href="/about/">About</a>
+        <a class="language-link" href="/it/guide/">IT</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero compact">
+        <p class="eyebrow">Quick start</p>
+        <h1>Build your first local roster.</h1>
+        <p>
+          A short operating path for testing Roster Burrito Local from an empty project to an
+          exported schedule.
+        </p>
+      </section>
+
+      <section class="guide-grid">
+        <article class="guide-step">
+          <span>01</span>
+          <h2>Install and open</h2>
+          <p>
+            Download the Windows installer from GitHub Releases, open the app, and keep project
+            files on a local drive you control.
+          </p>
+        </article>
+        <article class="guide-step">
+          <span>02</span>
+          <h2>Create a project</h2>
+          <p>
+            Start with the autosave workspace or use Save As to create a named `.shiftlocal`
+            project file for the roster you are building.
+          </p>
+        </article>
+        <article class="guide-step">
+          <span>03</span>
+          <h2>Add the roster basics</h2>
+          <p>
+            Add clinicians, shift types, coverage templates, planning settings, holidays, and any
+            local eligibility limits.
+          </p>
+        </article>
+        <article class="guide-step">
+          <span>04</span>
+          <h2>Enter monthly inputs</h2>
+          <p>
+            Capture manual preferences, unavailable dates, PTO / leave, and swap notes directly in
+            the local workspace.
+          </p>
+        </article>
+        <article class="guide-step">
+          <span>05</span>
+          <h2>Generate and review</h2>
+          <p>
+            Run the planner, review open slots and fairness summaries, then adjust inputs or manual
+            assignments before generating again.
+          </p>
+        </article>
+        <article class="guide-step">
+          <span>06</span>
+          <h2>Export and keep files local</h2>
+          <p>
+            Save the project and export the schedule when ready. Project data stays local unless you
+            share the file yourself.
+          </p>
+        </article>
+      </section>
+
+      <section class="video-showcase">
+        <div class="section-heading">
+          <p class="eyebrow">Guided demos</p>
+          <h2>Use templates to rehearse the guide steps.</h2>
+          <p>
+            The videos map directly to the first project open, planner generation, and team-mode
+            planning paths described in the quick start.
+          </p>
+        </div>
+        <div class="video-grid">
+          <article class="video-card">
+            <video src="/templates/animations/local-workflow.mp4" muted autoplay loop playsinline preload="metadata"></video>
+            <h3>Steps 01-02</h3>
+            <p>Install, open, and load a local `.shiftlocal` project.</p>
+          </article>
+          <article class="video-card">
+            <video src="/templates/animations/schedule-generation.mp4" muted autoplay loop playsinline preload="metadata"></video>
+            <h3>Steps 03-05</h3>
+            <p>Check rules, run the planner, and review the generated roster.</p>
+          </article>
+          <article class="video-card">
+            <video src="/templates/animations/team-mode-workflow.mp4" muted autoplay loop playsinline preload="metadata"></video>
+            <h3>Team-mode path</h3>
+            <p>Use the Oak Team Patterns template for grouped coverage experiments.</p>
+          </article>
+        </div>
+        <div class="video-actions">
+          <a class="button button-secondary" href="/templates/">Download guide templates</a>
+        </div>
+      </section>
+
+      <section class="split-section">
+        <div>
+          <p class="eyebrow">Troubleshooting</p>
+          <h2>Most local issues are easy to isolate.</h2>
+          <p>
+            The desktop app writes local logs and uses a loopback-only local API boundary. If the
+            solver cannot start, check Java availability first, then open the desktop log path shown
+            by the app.
+          </p>
+        </div>
+        <div class="feature-list">
+          <article>
+            <h3>Installer warning</h3>
+            <p>Unsigned early builds can trigger Windows security prompts until signing is added.</p>
+          </article>
+          <article>
+            <h3>Project files</h3>
+            <p>Use `.shiftlocal` files as the source of truth for a local planning workspace.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Roster Burrito Local</span>
+      <span>© <span data-current-year></span> Roster Burrito</span>
+    </footer>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

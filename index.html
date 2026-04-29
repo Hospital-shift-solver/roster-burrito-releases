@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Roster Burrito Local is a free desktop planning workspace for building hospital shift rosters on your own machine."
+    />
+    <link rel="icon" href="/brand/favicon-32x32.png" type="image/png" />
+    <link rel="apple-touch-icon" href="/brand/apple-touch-icon.png" />
+    <title>Roster Burrito Local | Free desktop roster planning</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="Roster Burrito Local home">
+        <img class="site-brand-logo" src="/brand/wordmark-compact-dark.png" alt="Roster Burrito" />
+        <span class="site-brand-edition">Local</span>
+      </a>
+      <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-label="Open navigation">
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" data-site-nav aria-label="Primary navigation">
+        <a href="/">Home</a>
+        <a href="/download/">Download</a>
+        <a href="/templates/">Templates</a>
+        <a href="/guide/">Guide</a>
+        <a href="/about/">About</a>
+        <a class="language-link" href="/it/">IT</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <img
+            class="hero-brand-lockup"
+            src="/brand/wordmark-stacked-dark.png"
+            alt="Roster Burrito"
+          />
+          <p class="eyebrow">Free local desktop app</p>
+          <h1>Roster Burrito Local</h1>
+          <p class="hero-lede">
+            Build emergency department rosters in a focused single-admin workspace, with project
+            files, solver runs, fairness checks, and exports kept on your machine.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="/download/">Download for Windows</a>
+            <a class="button button-secondary" href="/guide/">Read the guide</a>
+          </div>
+          <dl class="hero-proof">
+            <div>
+              <dt>Local files</dt>
+              <dd>SQLite-backed `.shiftlocal` projects</dd>
+            </div>
+            <div>
+              <dt>Focused scope</dt>
+              <dd>Single planner, no cloud login required</dd>
+            </div>
+            <div>
+              <dt>Official download</dt>
+              <dd>Installer hosted on GitHub Releases</dd>
+            </div>
+          </dl>
+        </div>
+        <figure class="hero-screenshot screenshot-frame">
+          <img
+            src="/screenshots/planner-roster.png"
+            alt="Roster Burrito Local roster view showing an April 2026 schedule with assigned day, evening, night, and on-call shifts."
+            fetchpriority="high"
+          />
+        </figure>
+      </section>
+
+      <section class="screenshot-showcase">
+        <div class="section-heading">
+          <p class="eyebrow">Actual app screens</p>
+          <h2>See each planning step where it happens.</h2>
+          <p>
+            The homepage uses real captures from the local app so visitors can connect each feature
+            with the exact screen they will use after download.
+          </p>
+        </div>
+        <div class="screenshot-feature-grid">
+          <article class="screenshot-feature">
+            <div class="screenshot-copy">
+              <p class="eyebrow">PTO / Leave</p>
+              <h3>Record absences before the solver builds the roster.</h3>
+              <p>
+                The leave view keeps absence entry and the recorded table together, making it clear
+                which unavailable dates will affect the month.
+              </p>
+            </div>
+            <figure class="screenshot-frame">
+              <img
+                src="/screenshots/pto-leave.png"
+                alt="PTO and leave screen with an entry form and recorded leave rows."
+                loading="lazy"
+              />
+            </figure>
+          </article>
+
+          <article class="screenshot-feature">
+            <div class="screenshot-copy">
+              <p class="eyebrow">Requests and preferences</p>
+              <h3>Turn clinician requests into readable planning constraints.</h3>
+              <p>
+                Preferences are entered per clinician and month, with unavailable dates, shift
+                limits, preferred shifts, and notes visible before generation.
+              </p>
+            </div>
+            <figure class="screenshot-frame">
+              <img
+                src="/screenshots/requests-preferences.png"
+                alt="Manual preferences screen showing clinician requests, unavailable dates, and preferred shift types."
+                loading="lazy"
+              />
+            </figure>
+          </article>
+
+          <article class="screenshot-feature">
+            <div class="screenshot-copy">
+              <p class="eyebrow">Planner settings</p>
+              <h3>Keep solver rules explicit and adjustable.</h3>
+              <p>
+                Scheduling constraints stay visible in one settings area, so rest limits, workload
+                rules, and fairness defaults can be checked before a run.
+              </p>
+            </div>
+            <figure class="screenshot-frame">
+              <img
+                src="/screenshots/planner-settings.png"
+                alt="Planner settings screen with scheduling constraints such as minimum rest hours and maximum consecutive days."
+                loading="lazy"
+              />
+            </figure>
+          </article>
+        </div>
+      </section>
+
+      <section class="video-showcase">
+        <div class="section-heading">
+          <p class="eyebrow">Workflow previews</p>
+          <h2>Try the local flow with ready-made project files.</h2>
+          <p>
+            The template demos show opening a `.shiftlocal` file, generating a feasible schedule,
+            and testing team-mode rotations before you build your own roster.
+          </p>
+        </div>
+        <div class="landing-workflow-preview">
+          <video src="/templates/animations/local-workflow.mp4" muted autoplay loop playsinline preload="metadata"></video>
+        </div>
+        <div class="video-actions">
+          <a class="button button-secondary" href="/templates/">Browse demo templates</a>
+        </div>
+      </section>
+
+      <section class="section-band">
+        <div class="section-heading">
+          <p class="eyebrow">Planning flow</p>
+          <h2>From local setup to export in one workspace.</h2>
+        </div>
+        <div class="workflow-grid">
+          <article>
+            <span>01</span>
+            <h3>Set up the roster</h3>
+            <p>Add clinicians, teams, shift types, coverage templates, and planning rules.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Capture constraints</h3>
+            <p>Enter monthly preferences, leave, blocked dates, and manual swap notes.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Generate and review</h3>
+            <p>Run the local solver, inspect fairness, identify open slots, and tune the plan.</p>
+          </article>
+          <article>
+            <span>04</span>
+            <h3>Export the result</h3>
+            <p>Save project files locally and export schedules when the roster is ready.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="split-section">
+        <div>
+          <p class="eyebrow">Local now</p>
+          <h2>Designed for a planner who wants control without setup overhead.</h2>
+          <p>
+            The desktop app keeps the essential scheduling workflow compact: no Supabase setup, no
+            organization accounts, no shared review process. It is practical, private, and ready for
+            a single admin to build and test real rosters.
+          </p>
+        </div>
+        <div class="feature-list">
+          <article>
+            <h3>Included in Local</h3>
+            <ul>
+              <li>Clinician registry and shift types</li>
+              <li>Coverage rules and local generation</li>
+              <li>Manual preferences, leave, and swaps</li>
+              <li>Fairness summaries and exports</li>
+            </ul>
+          </article>
+          <article>
+            <h3>Cloud edition scope</h3>
+            <ul>
+              <li>Clinician accounts and self-service</li>
+              <li>Notifications and deadlines</li>
+              <li>Shared review workflows</li>
+              <li>Multi-organization governance</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Roster Burrito Local</span>
+      <span>© <span data-current-year></span> Roster Burrito</span>
+    </footer>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

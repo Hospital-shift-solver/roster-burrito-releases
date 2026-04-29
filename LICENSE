@@ -1,0 +1,151 @@
+Roster Burrito Local Terms of Service and End User License Agreement
+
+Last updated: April 28, 2026
+
+Please read these terms carefully before installing or using Roster Burrito Local.
+By clicking "I Agree" in the installer, installing the application, or using the
+application, you accept this Terms of Service and End User License Agreement
+("Agreement"). If you do not agree, do not install or use the application.
+
+1. Parties And Contact
+
+Roster Burrito Local is developed and licensed by Giacomo Ramponi and Marco Paganuzzi
+("Licensors"). For any inquiry, contact:
+
+g.ramponi@gmail.com
+
+2. Free License To Use The Application
+
+The Licensors grant you a personal, no-charge, non-exclusive, non-transferable,
+revocable license to install and use Roster Burrito Local for scheduling,
+workforce planning, roster review, and related internal planning activities.
+The application is distributed for free. No purchase is required to use the
+application.
+
+3. Sharing And Distribution
+
+You may share the official GitHub Releases page link for Roster Burrito Local
+and the published checksum so that other users can download and verify the
+official installer.
+
+You may not, without prior written permission from the Licensors:
+
+- resell, rent, sublicense, or commercially exploit the application;
+- charge for access to the application or include it in a paid bundle;
+- rehost, mirror, or redistribute installer copies outside the official GitHub
+  Releases page;
+- modify, translate, reverse engineer, decompile, disassemble, or create
+  derivative works from the application except where applicable law expressly
+  permits this despite the restriction;
+- distribute modified copies, patched copies, repackaged copies, or copies with
+  notices, checksums, branding, or license text removed;
+- claim ownership of the application or imply endorsement, partnership, or
+  affiliation with the Licensors, Timefold, or any third-party project.
+
+4. Ownership
+
+Roster Burrito Local, including its name, user interface, packaging, source code,
+compiled application, local engine integration, documentation, artwork, branding,
+and non-third-party assets, remains owned by the Licensors or their licensors.
+This Agreement gives you only the limited permission stated above. It does not
+transfer ownership or intellectual property rights to you.
+
+5. Third-Party Software And Timefold Notice
+
+Roster Burrito Local includes or uses third-party open-source software. In
+particular, the application includes or uses Timefold Solver Community, which is
+open-source software released under the Apache License 2.0.
+
+Timefold rights remain with Timefold BV and its contributors. Timefold Solver is
+a derivative work of OptaPlanner and includes copyrights of Red Hat Inc.,
+affiliates, and contributors, as described by Timefold's license notice. Timefold
+is not affiliated with, sponsoring, or endorsing Roster Burrito Local.
+
+Nothing in this Agreement limits your rights under third-party open-source
+licenses. Where an open-source license grants you rights that cannot be limited
+by this Agreement, that open-source license controls for the relevant third-party
+component. The Apache License 2.0 text and third-party notices are included with
+the application package.
+
+6. User Responsibility And Misuse
+
+Roster Burrito Local is a planning and scheduling aid. It does not replace
+professional judgment, legal review, staffing policies, medical staffing
+responsibilities, labor-law compliance, employment decisions, or operational
+oversight.
+
+You are solely responsible for reviewing, validating, approving, and using any
+schedule, roster, assignment, report, export, or recommendation produced or
+stored by the application. You are responsible for confirming that any output is
+accurate, lawful, safe, complete, and appropriate for your organization and use
+case before relying on it.
+
+You agree not to misuse the application, including by using it for unlawful,
+unsafe, deceptive, harmful, discriminatory, or unauthorized purposes.
+
+7. No Warranty
+
+Roster Burrito Local is provided for free and on an "as is" and "as available"
+basis. To the maximum extent permitted by applicable law, the Licensors disclaim
+all warranties and representations, express or implied, including warranties of
+merchantability, fitness for a particular purpose, title, non-infringement,
+accuracy, availability, security, error-free operation, and correctness of
+schedules or solver results.
+
+The Licensors do not guarantee that the application will meet your requirements,
+produce optimal or correct schedules, run without interruption, preserve data in
+all circumstances, or be free from defects, vulnerabilities, or harmful
+interactions with your systems.
+
+8. Limitation Of Liability
+
+To the maximum extent permitted by applicable law, the Licensors will not be
+liable for any direct, indirect, incidental, special, consequential, exemplary,
+punitive, or similar damages arising from or related to the application, this
+Agreement, installation, use, inability to use, misuse, incorrect schedules,
+staffing decisions, operational decisions, employment decisions, compliance
+failures, data loss, business interruption, loss of profits, loss of goodwill,
+or security issues, even if the Licensors have been advised of the possibility
+of such damages.
+
+Because the application is provided for free, your sole remedy is to stop using
+and uninstall the application.
+
+9. Unsigned Installer And Security
+
+The Windows installer is currently unsigned. Windows may display "Unknown
+publisher" or Microsoft SmartScreen warnings. Only download Roster Burrito Local
+from the official GitHub Releases page:
+
+https://github.com/Hospital-shift-solver/roster-burrito-releases/releases
+
+Before installing, verify the file name and SHA-256 checksum published in the
+corresponding GitHub Release notes. Do not install copies received from unofficial
+mirrors, rehosted downloads, modified packages, or unknown senders.
+
+10. Updates
+
+The Licensors may update, change, suspend, or discontinue the application or any
+distribution channel at any time. Updated versions may be subject to updated
+terms. Continued installation or use after an update means you accept the updated
+terms that accompany that version.
+
+11. Termination
+
+Your permission to use the application terminates automatically if you breach
+this Agreement. After termination, you must stop using and uninstall the
+application and delete any unauthorized copies in your possession or control.
+
+12. Governing Law
+
+This Agreement is governed by Italian law, excluding conflict-of-law rules. Any
+dispute arising from or related to this Agreement or the application will be
+submitted to the competent Italian courts, unless mandatory applicable consumer
+or local law provides otherwise.
+
+13. Entire Agreement
+
+This Agreement is the entire agreement between you and the Licensors for your
+installation and use of Roster Burrito Local and replaces any prior or
+contemporaneous statements about the same subject, except for third-party
+open-source licenses that apply to their respective components.
